@@ -42,14 +42,13 @@ We use **VGG16** (pre-trained on ImageNet) with:
 - Final Dense layer with 2 units (softmax)
 
 ### 4️⃣ Training
-```python
+
 history_feat = model_feature_extract.fit(train_generator, epochs=15)
 Optimizer: Adam(learning_rate=0.001)
-
 Loss: categorical_crossentropy
-
 Metric: accuracy
-##🛠 Requirements
+
+## 🛠 Requirements
 bash
 Copy
 Edit
