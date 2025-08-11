@@ -49,9 +49,7 @@ Loss: categorical_crossentropy
 Metric: accuracy
 
 ## 🛠 Requirements
-bash
-Copy
-Edit
+
 tensorflow
 keras
 pillow
